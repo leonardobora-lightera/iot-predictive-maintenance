@@ -1,0 +1,2 @@
+# This directory stores raw CSV files (not versioned for security/size)
+# Place your raw IoT sensor data here before running clean_data.py

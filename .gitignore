@@ -1,0 +1,39 @@
+# Data files (sensíveis + grandes)
+data/raw/*.csv
+data/processed/*.csv
+!data/processed/.gitkeep
+!data/raw/.gitkeep
+
+# Models (instáveis/experimentais)
+*.joblib
+model_*.joblib
+
+# Outputs experimentais
+train_monitor_output/
+shap_analysis_output/
+archive/
+cv_results/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_backup
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db

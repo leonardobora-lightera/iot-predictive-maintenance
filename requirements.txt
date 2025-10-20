@@ -1,0 +1,10 @@
+streamlit>=1.28.0
+pandas>=1.5.0
+numpy
+python-dateutil>=2.8.0
+plotly>=5.15.0
+boto3
+rich
+pygwalker
+scikit-learn
+matplotlib
